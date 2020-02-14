@@ -1,0 +1,79 @@
+body{
+  background-color: rgb(241, 241, 241);
+}
+
+.top{
+  float:left;
+}
+
+#jdlogo{
+  margin-left: 70%;
+  margin-top:1%;
+  display: block;
+}
+
+#pagebreak{
+  height:10px;
+  margin-top:3%;
+  color:rgb(54, 124, 43);
+  background-color:rgb(54, 124, 43);
+  border-bottom: 7px solid rgb(253, 218, 1);
+  display: block;
+}
+
+h2{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-size-adjust: 30%;
+  margin-top: 1%;
+  margin-left: 2%;
+  color: rgb(54, 124, 43);
+  display: block;
+}
+
+.searchTerm {
+  height: 55px;
+  width: 700px;
+  max-width: 100%;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50px;
+  display: flex; 
+  font-size: 20px;
+  color: rgb(54, 124, 43);
+  margin-bottom: 3%;
+}
+
+input:focus{
+  border-color: rgb(54, 124, 43);
+  border-radius: 10px;
+  padding-left:8px;
+}
+
+.datatable {
+  margin-left: 25%;
+  margin-right: 5%;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.datatable td, .datatable th {
+  border: 1px solid rgb(54, 124, 43);
+  padding: 8px;
+}
+
+.datatable tr:nth-child(even){background-color: #ddd;}
+
+.datatable tr:hover {background-color: rgb(213, 245, 227);}
+
+.datatable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(54, 124, 43);
+  color: white;
+}
